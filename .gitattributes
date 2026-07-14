@@ -1,0 +1,14 @@
+# Normaliza quebras de linha para LF em todos os arquivos de texto,
+# independente do sistema operacional de quem commita.
+* text=auto eol=lf
+
+# Garante que arquivos binários nunca sejam tratados como texto
+# (evita corrupção por conversão de linha).
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
